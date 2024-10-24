@@ -32,7 +32,6 @@ body{
     padding: 0px 10px 0px 10px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
     
 }
 #header .link{
@@ -67,7 +66,9 @@ body{
     cursor: pointer;
 }
 main{
+    width: 100%;
     padding: 15px 10vh;
+    background-color: var(--color2);
 }
 .imagemInicio{
     width: 90vw;
@@ -112,42 +113,6 @@ main{
 }
 
 /* pagina 2 */
-
-#headers{
-    margin-top: 20px;
-    width: 90vw;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
-#headers .link{
-    border: none;
-    font-size: 1.2em;
-    padding: 25px;
-    color: var(--color1);
-    cursor: pointer;
-    text-decoration: none;
-}
-#headers .link:hover{
-    transform: translateY(-2px);
-    scale: 1.03;
-    text-decoration: underline;
-}
-#headers h1{
-    padding: 15px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    
-} 
-#headers a{
-    text-decoration: none;
-}
-#headers h1:hover{
-    transform: translateY(-2px);
-    scale: 1.03;
-}
-
 #logos{
     width: 150px;
     height: 80px;
@@ -209,11 +174,7 @@ main{
 
 /* página 3 */
 
-body#locais{
-    margin: 0;
-    background-image: url(img/fundop3.png);
-    width: 100%;
-}
+
 
 .local {
     text-align: center;
@@ -318,4 +279,10 @@ footer {
     height: 40px;
     width: 100%; /* Largura total */
     margin: 0;
+}
+.button-final:hover{
+    background-color: rgb(178, 178, 178);
+    scale: 1.02;
+    transform: translateY(-2px);
+
 }
